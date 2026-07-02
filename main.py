@@ -6,6 +6,7 @@ from aiogram.types import BotCommand
 
 import config
 from handlers import router
+from keep_alive import keep_alive
 
 logging.basicConfig(level=logging.INFO)
 
@@ -26,6 +27,7 @@ async def main() -> None:
 
 if __name__ == "__main__":
     try:
+        keep_alive()
         asyncio.run(main())
     except KeyboardInterrupt:
         logging.info("Bot stopped.")
