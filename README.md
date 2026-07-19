@@ -53,6 +53,6 @@ The keep-alive server listens on port `8080` if your host needs something to pin
 
 ## Try this in chat
 
-- Send something flat: *"Meeting at 3pm."* → probably silence
-- Send something with energy: *"I finally fixed the bug that's been haunting me for a week"* → 🥂
+- Send something flat: *"meeting at 3pm"* → probably silence
+- Send something with energy: *"queens don't bother themselves with writing READMEs"* → 🥂
 - Type `/cheers` → 🥂, no questions asked
