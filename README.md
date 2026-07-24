@@ -6,13 +6,13 @@ Drop a deep quote, a chaotic life update, or something with genuine vibe in a gr
 
 ## What it actually does
 
-- Listens to regular text messages (ignores commands)
+- Listens to regular text messages
 - Sends the text to **Google Gemini** with a strict TRUE/FALSE prompt
 - Replies with 🥂 when the AI says the message hits
 - `/cheers` — instant toast, then tries to delete your command message (permission willing)
 - `/start` — wakes the bot up politely
 
-The AI prompt is tuned for emotional weight, memes, slang, and multilingual chaos — not for "please buy milk tomorrow."
+The AI prompt is tuned for emotional weight, memes, slang and multilingual chaos — not for "please buy milk tomorrow."
 
 ## Tech stack
 
@@ -56,3 +56,6 @@ The keep-alive server listens on port `8080` if your host needs something to pin
 - Send something flat: *"meeting at 3pm"* → probably silence
 - Send something with energy: *"queens don't bother themselves with writing READMEs"* → 🥂
 - Type `/cheers` → 🥂, no questions asked
+
+> **Note:** You can access my bot at [https://t.me/sm_cheers_bot](https://t.me/sm_cheers_bot).
+
